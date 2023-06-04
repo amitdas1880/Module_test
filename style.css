@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Nav bar */
+.container-fluid{
+    margin: 0px 80px;
+}
+.navbar-brand{
+    font-weight: 450;
+}
+
+/* Second part */
+.carousel-item img{
+    width:100% ;
+    height: 600px;
+}
+/* third part */
+.card img{
+    width: 250px;
+    height: 200px;
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    width: 100%;
+    margin-left:auto;
+    
+    
+}
+.card-title{
+    font-weight: 700;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -80px;
+
+       
+}
+.card p{
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* Forth part */
+/* part-2 */
+.photo-2{
+    display: grid;
+    grid-template-columns: repeat(2,40%);
+    width: 100%;
+    margin-top: 10px;
+    
+}
+.pic-1{
+    display: flex;
+    align-items: center;
+     justify-content: center;
+     margin-right: 20px;
+}
+    
+.pic-1 .ima img{
+    width: 360px;
+    height: 500px;
+}
+.pic-1 .imag img{
+    width: 820px;
+    height: 500px;
+}
+/* part-1 */
+
+.photo-1{
+    display: grid;
+    grid-template-columns: 30% 50%;
+    width: 50%;
+    margin: 5px 115px;
+    padding: 0px 100px;
+    column-gap: 3%;
+}
+.photoset{
+    display: grid;
+    grid-template-rows: repeat(2,50%);
+    width: 60%;
+    margin-left:auto;
+     row-gap: 5px;
+ 
+     
+    
+}
+.photoset-1{
+ 
+    display: grid;
+    grid-template-columns: 30% 30% 40%;
+    width: 30%;
+   
+ 
+    column-gap: 50px;
+ 
+}
+.pic-1 img{
+    width: 360px;
+    height: 460px;
+    margin-left: 50px;
+}
+.photoset-1 .item img{
+    width: 450px;
+
+    height:230px ;
+}
+
+
+/* Footer */
+.row{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-top: 140px;
+}
+
+.last-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 0px;
+    margin-left: 95px;
+    margin-right: 240px;
+}
+.last-footer button{
+    
+    padding: 8px 12px;
+    background-color: rgb(49, 49, 160);
+    color: aliceblue;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.last{
+    font-size: 20px;
+    color: black;
+}
+.item{
+    font-size: 19px;
+}
+.col-title{
+    color: black;
+    font-weight: 600;
+}
+
+
+   /* display: grid;
+    grid-template-columns: 30%, 30%, 40%; */
+    /* min-width: 100%; */
